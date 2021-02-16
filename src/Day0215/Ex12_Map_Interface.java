@@ -1,5 +1,6 @@
 package Day0215;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -57,6 +58,10 @@ public class Ex12_Map_Interface {
         }
         Collection clist = map.values();
         System.out.println(clist.toString());
+        
+        //Map과 List 혼합
+        //HashMap<String,ArrayList> room = new HashMap<String,ArrayList>();
+        //room.add("1", new ArrayList())
     }
 
 }
